@@ -933,3 +933,223 @@ strong {
 
 /*End Sandwich*/
 
+/*card*/
+.card {
+	padding-bottom: 80px;
+}
+.breadcumbs {
+	margin: 22px 0;
+	font-size: 14px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.breadcumbs li a {
+	color: #fff;
+	border-bottom: 1px transparent solid;
+	transition: all 0.3s;
+}
+.breadcumbs li a:hover {
+	border-color: #fff;
+}
+.breadcumbs li span {
+	margin: 0 5px;
+}
+.wrap-slider-card {
+	max-width: 605px;
+}
+.slider-for__item {
+	height: 467px;
+	border-radius: 8px;
+	background-color: #2f4f98;
+}
+.slider-nav__item {
+	height: 128px;
+	cursor: pointer;
+	margin: 0 7px;
+	border-radius: 8px;
+	background-color: #2f4f98;
+}
+.slider-nav__item img,
+.slider-for__item img {
+	border-radius: 8px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.slider-nav {
+	margin: 0 -7px;
+	margin-top: 11px;
+}
+.wrapper_inner {
+	background-image: url(../img/bg_inner_page.png);
+}
+.card__title {
+	font-size: 30px;
+	margin-bottom: 8px;
+	font-family: 'Segoe UI';
+	font-weight: 700;
+}
+.card__descr {
+	font-size: 20px;
+	margin-bottom:20px;
+	line-height: 30px;
+}
+.card__char {
+	margin-bottom: 22px;
+	line-height: 24px;
+	font-family: 'Segoe UI';
+}
+.card__char strong {
+	font-weight: 600;
+}
+.card__price {
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 600;
+}
+.card__price strong {
+	font-size: 30px;
+	font-weight: 700;
+}
+.card .btn-main {
+	height: 66px;
+	padding: 0 35px;
+}
+.tabs-card {
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+}
+.tabs-card li a {
+	height: 42px;
+	padding: 0 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #171824;
+	background-color: #82c53a;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	transition: all 0.3s;
+	text-align: center;
+}
+.tabs-card li {
+	margin-right: 7px;
+}
+.tabs-card li a:hover,
+.tabs-card li.active a {
+	background-color: #262735;
+	color: #fff;
+}
+.tab-container-card {
+	padding: 44px 33px;
+	padding-bottom: 35px;
+	box-shadow: 11px 11px 20px rgba(15, 16, 29, 0.5);
+border-radius: 8px;
+color: #fefefe;
+line-height: 24px;
+background-color: #262735;
+}
+.title-tab {
+	color: #82c53a;
+font-size: 18px;
+text-transform: uppercase;
+}
+.name-tab {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.table-main table {
+	width: 100%;
+	border-spacing: 0;
+}
+.table-main thead td:first-child {
+	border-top-left-radius: 6px;
+}
+.table-main thead td:last-child {
+	border-top-right-radius: 6px;
+}
+.table-main thead td {
+	border-top: 1px solid #595963;
+}
+.table-main td {
+	padding: 20px 20px;
+	border-bottom: 1px solid #595963;
+}
+.table-main td:first-child {
+	border-left: 1px solid #595963;
+}
+.table-main td:last-child {
+	border-right: 1px solid #595963;
+}
+.table-main tbody td:not(:first-child) {
+	font-size: 18px;
+}
+.tab-container-card .table-main {
+	max-width: 577px;
+}
+.tab-container-card li::before {
+	content: "•";
+	color: #82c53a;
+	margin-right: 10px;
+}
+.tab-container-card li {
+	margin-bottom: 10px;
+}
+.tab-pane-card {
+	display: none;
+}
+.tab-pane-card:first-child {
+	display: block;
+}
+.col_pl {
+	padding-left: 0;
+}
+.modal-block {
+	display: none;
+}
+.modal-wrap {
+	width: 460px;
+	padding: 25px 55px;
+box-shadow: 11px 11px 20px rgba(15, 16, 29, 0.5);
+border-radius: 8px;
+background-color: #262735;
+max-width: 100%;
+color: #fff;
+margin: 0 auto;
+}
+.fancybox-skin {
+	padding: 0 !important;
+	box-shadow: none !important;
+	background-color: transparent !important;
+}
+input[type="time"],
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="time"],
+select::-ms-expand {
+  display: none;
+}
+::-webkit-calendar-picker-indicator {
+color: transparent;
+background-color: transparent;
+opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+cursor: pointer;
+}

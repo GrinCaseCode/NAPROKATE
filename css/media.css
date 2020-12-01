@@ -507,6 +507,61 @@
 .breadcumbs {
     margin: 15px 0;
 }
+.slider-for__item {
+    height: 268px;
+}
+.slider-nav__item {
+    height: 80px;
+}
+.card__title {
+    font-size: 22px;
+}
+.card__descr {
+    font-size: 16px;
+}
+.card__char {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.card .btn-main {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.tabs-card {
+    margin: 0 -4px;
+    margin-top: 30px;
+}
+.tabs-card li {
+    width: 50%;
+    padding: 0 4px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.tabs-card li a {
+    border-radius: 6px;
+}
+.tabs-card {
+    flex-wrap: wrap;
+}
+.name-tab {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+    .table-main td {
+    padding: 13px 5px;
+}
+.table-main {
+    font-size: 13px;
+}
+.table-main tbody td:not(:first-child) {
+    font-size: 13px;
+}
+.tab-container-card {
+    font-size: 13px;
+    padding-top: 0;
+}
 
 }
 
