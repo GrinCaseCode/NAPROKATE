@@ -19,7 +19,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	}
 /*высота блока по экрану*/
     function heightDetect() {
-      $('.nav').css("height", $(window).height() -$(".header").height());
+      $('.nav').css("height", $(window).height() -$(".header").height() + 40);
     };
     heightDetect();
     $(window).resize(function() {
