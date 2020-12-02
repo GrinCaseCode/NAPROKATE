@@ -351,6 +351,9 @@
 .wrapper_inner .advantages {
     padding-bottom: 50px;
 }
+.jq-selectbox__select-text, .item-form select, .item-form textarea, .item-form input {
+    font-size: 16px;
+}
 }
 
 @media (max-width: 576px) {
@@ -577,8 +580,7 @@
 }
 input[type="time"], 
 input[type="date"] {
-    padding-left: 10px;
-    font-size: 14px !important;
+    padding-left: 10px !important;
 }
 .datatime-icon {
     width: 16px;

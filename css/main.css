@@ -477,9 +477,13 @@ select {
 	resize: none;
 }
 .jq-selectbox__select-text {
-	display: flex;
+	display: block;
+	padding-top: 16px;
 	position: relative;
 	padding-right: 25px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    overflow: hidden;
 	align-items: center;
 }
 .jq-selectbox__trigger {
@@ -515,6 +519,9 @@ select {
 }
 .jq-selectbox__dropdown li {
 	padding: 5px 15px;
+		text-overflow: ellipsis;
+	white-space: nowrap;
+    overflow: hidden;
 	cursor: pointer;
 }
 .item-form__icon {
