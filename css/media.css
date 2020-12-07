@@ -1,4 +1,34 @@
 /*==========  Desktop First Method  ==========*/
+/*new*/
+/*new*/
+/*new*/
+@media (min-width: 1240px) and (max-width: 1800px)  {
+.container_big {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.billbord .btn-main {
+  padding: 0 5px;
+  width: 100%;
+}
+}
+@media (min-width: 1200px) and (max-width: 1240px)  {
+.container_big {
+     max-width: 1170px;
+     padding: 0 15px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1200px)  {
+/*new*/
+/*new*/
+/*new*/
+.billbord .container_big {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+}
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -44,6 +74,8 @@
 .table-main td {
     padding: 17px 12px;
 }
+
+
 }
 
 /* Medium Devices, Desktops */

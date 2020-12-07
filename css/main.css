@@ -483,45 +483,45 @@ select {
 	padding-right: 25px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-    overflow: hidden;
+	overflow: hidden;
 	align-items: center;
 }
 .jq-selectbox__trigger {
 	position: absolute;
 	right: 0;
 	top: 0;
-    color: #181824;
-    font-size: 10px;
-    width: 10px;
-    height: 10px;
-    bottom: 0;
-    margin: auto;
-    right: 14px;
+	color: #181824;
+	font-size: 10px;
+	width: 10px;
+	height: 10px;
+	bottom: 0;
+	margin: auto;
+	right: 14px;
 	-moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-        font-family: "Font Awesome 5 Pro";
-    font-weight: 900;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 900;
 }
 .jq-selectbox__trigger::before {
-    content: "\f078";
+	content: "\f078";
 }
 .jq-selectbox__dropdown {
 	width: 100%;
 	color: #454545;
 	background-color: #f6f7f7;
 	border-radius: 8px;
-    border: 1px #454545 solid;
+	border: 1px #454545 solid;
 }
 .jq-selectbox__dropdown li {
 	padding: 5px 15px;
-		text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	white-space: nowrap;
-    overflow: hidden;
+	overflow: hidden;
 	cursor: pointer;
 }
 .item-form__icon {
@@ -1061,15 +1061,15 @@ strong {
 	padding: 44px 33px;
 	padding-bottom: 35px;
 	box-shadow: 11px 11px 20px rgba(15, 16, 29, 0.5);
-border-radius: 8px;
-color: #fefefe;
-line-height: 24px;
-background-color: #262735;
+	border-radius: 8px;
+	color: #fefefe;
+	line-height: 24px;
+	background-color: #262735;
 }
 .title-tab {
 	color: #82c53a;
-font-size: 18px;
-text-transform: uppercase;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 .name-tab {
 	margin-top: 20px;
@@ -1128,12 +1128,12 @@ text-transform: uppercase;
 .modal-wrap {
 	width: 460px;
 	padding: 25px 55px;
-box-shadow: 11px 11px 20px rgba(15, 16, 29, 0.5);
-border-radius: 8px;
-background-color: #262735;
-max-width: 100%;
-color: #fff;
-margin: 0 auto;
+	box-shadow: 11px 11px 20px rgba(15, 16, 29, 0.5);
+	border-radius: 8px;
+	background-color: #262735;
+	max-width: 100%;
+	color: #fff;
+	margin: 0 auto;
 }
 .fancybox-skin {
 	padding: 0 !important;
@@ -1143,39 +1143,39 @@ margin: 0 auto;
 input[type="date"],
 input[type="time"],
 select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 input[type="date"],
 input[type="time"],
 select::-ms-expand {
-  display: none;
+	display: none;
 }
 ::-webkit-calendar-picker-indicator {
-color: transparent;
-background-color: transparent;
-opacity: 0;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-cursor: pointer;
+	color: transparent;
+	background-color: transparent;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
 }
 .item-form_location .jq-selectbox__select-text::before,
 .item-form_car .jq-selectbox__select-text::before {
-    height: 57px;
-    position: absolute;
-    display: block;
-    content: " ";
-    top: 0;
-    left: 0;
-    width: 60px;
-    background-image: url(../img/ic_car.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 26px auto;
+	height: 57px;
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 60px;
+	background-image: url(../img/ic_car.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 26px auto;
 }
 .item-form_location .jq-selectbox__select-text::before {
 	background-image: url(../img/ic_location.svg);
@@ -1264,7 +1264,7 @@ input[type="date"] {
 	background:none !important;
 }
 .fancybox-close:before {
-    content: "\f00d";
+	content: "\f00d";
 }
 .modal-wrap .checkbox {
 	margin-top: 15px;
@@ -1273,8 +1273,74 @@ input[type="date"] {
 	margin-bottom: 8px;
 }
 .wrapper_inner .catalog .title-section_main {
-    padding-top: 25px;
+	padding-top: 25px;
 }
 .wrapper_inner .advantages {
 	padding-bottom: 90px;
+}
+
+/*new*/
+/*new*/
+/*new*/
+.jq-selectbox__select-text,
+.item-form select,
+.item-form textarea,
+.item-form input {
+	box-shadow: none;
+}
+.map-block,
+.car-billbord__image,
+.jq-selectbox__select-text,
+.item-form select,
+.item-form textarea,
+.item-form input,
+.question,
+.item-condition__icon,
+.item-card,
+.item-card__icon {
+	transition: all 0.5s;
+}
+.item-card:hover {
+	box-shadow: 0px 0px 10px rgb(153 223 250 / 50%);
+}
+.slider-nav__item,
+.item-catalog__image {
+	overflow: hidden;
+}
+.slider-nav__item:hover img,
+.item-catalog:hover .item-catalog__image img {
+	transform: scale(1.1);
+}
+.item-condition:hover .item-condition__icon,
+.item-card:hover .item-card__icon {
+	transform: rotateY(180deg);
+}
+.question:hover {
+	box-shadow: 0px 0px 10px rgb(153 223 250 / 50%);
+}
+.jq-selectbox__select-text:hover,
+.item-form select:hover,
+.item-form textarea:hover,
+.item-form input:hover {
+	box-shadow: 0 0 7px #ffffff;
+}
+.item-catalog:hover {
+	box-shadow: 0 0 13px #ffffff;
+}
+.item-form__icon {
+	pointer-events: none;
+}
+.btn-main:hover {
+	background-color: #ffcc00;
+	box-shadow: 0 0 15px #ffcc00;
+}
+.btn-main_page:hover {
+	background-color: #82c53a;
+	box-shadow: 0 0 15px #82c53a;
+}
+.car-billbord:hover .car-billbord__image {
+	transform: translateX(-10px);
+}
+.map-block:hover {
+	/*  box-shadow: 11px 11px 20px rgb(135 138 178 / 50%); */
 }
