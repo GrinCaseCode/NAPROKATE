@@ -1307,8 +1307,7 @@ input[type="date"] {
 .item-catalog__image {
 	overflow: hidden;
 }
-.slider-nav__item:hover img,
-.item-catalog:hover .item-catalog__image img {
+.slider-nav__item:hover img {
 	transform: scale(1.1);
 }
 .item-condition:hover .item-condition__icon,
