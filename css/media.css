@@ -29,6 +29,11 @@
 }
 }
 
+@media only screen and (max-width : 1500px) {
+.conditions__image img {
+    max-width: 811px;
+}
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -74,7 +79,13 @@
 .table-main td {
     padding: 17px 12px;
 }
-
+.conditions__image img {
+  max-width: 600px;
+}
+.conditions-brief {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 }
 
@@ -221,6 +232,35 @@
 }
 .card {
     padding-bottom: 40px;
+}
+.contacts-block .block-form_contact {
+  float: none;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.row_docs {
+  justify-content: center;
+}
+.documents {
+  padding-bottom: 100px;
+}
+.about-block__image {
+  margin-top: 30px;
+}
+.about-block__image img {
+  margin: 0 auto;
+}
+.pr_40 {
+  padding-right: 15px;
+}
+.conditions__image img {
+  max-width: 100%;
+}
+.conditions__image {
+  margin-top: 30px;
+}
+.title-page {
+  margin-top: 30px;
 }
 }
 
@@ -386,6 +426,64 @@
 .jq-selectbox__select-text, .item-form select, .item-form textarea, .item-form input {
     font-size: 16px;
 }
+.contacts-block .col-lg-3 {
+  padding-left: 15px;
+}
+.contacts-block__title {
+  padding-top: 15px;
+}
+.contacts-block {
+  padding-top: 25px;
+}
+.contacts {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.row_docs > div:first-of-type {
+  margin-top: 30px;
+}
+.about-block {
+  padding: 30px 30px;
+}
+.article-block__content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title-article {
+    font-size: 27px;
+    line-height: 34px;
+    }
+    .item-blog {
+      max-width: 380px;
+      margin: 0 auto;
+    }
+    .pagination__arrow:first-of-type {
+      margin-right: 60px;
+    }
+    .pagination__arrow:last-of-type {
+      margin-left: 60px;
+    }
+    .services {
+      padding-bottom: 80px;
+    }
+    .title-page {
+      font-size: 25px;
+      margin-top: 20px;
+      line-height: 33px;
+    }
+    .item-conditions {
+      font-size: 18px;
+    }
+    .col_pr {
+      padding-right: 15px;
+    }
+    .block-condition__title {
+      font-size: 21px;
+    }
+    .block-condition {
+      font-size: 16px;
+      margin-top: 25px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -626,6 +724,109 @@ input[type="date"] {
 .jq-selectbox__trigger {
     right: 10px;
 }
+.contacts-block {
+  padding: 10px 15px;
+  padding-bottom: 0px;
+}
+.contacts-block .block-form_contact {
+  margin: 0 -15px;
+  margin-top: 25px;
+    width: initial;
+    max-width: initial;
+}
+.row_docs .item-card {
+    padding-top: 30px;
+    padding-bottom: 61px;
+    font-size: 16px;
+}
+.about-block {
+  padding: 20px 15px;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.article .breadcumbs {
+    justify-content: flex-start;
+}
+.title-article {
+    font-size: 24px;
+    line-height: 27px;
+}
+.article-block__content {
+  padding: 20px 15px;
+}
+.article-block p, .article-block li {
+    margin-bottom: 15px;
+}
+.subtitle-article {
+  font-size: 21px;
+}
+.item-blog__name {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.item-blog__descr {
+  font-size: 14px;
+  line-height: 21px;
+}
+.item-blog__image {
+  height: 225px;
+}
+.pagination__arrow:first-of-type {
+  margin-right: auto;
+}
+.pagination__arrow:last-of-type {
+  margin-left: auto;
+}
+.row_services > div {
+    margin-top: 100px;
+}
+.services {
+  padding-bottom: 60px;
+}
+.conditions-page .descr-title {
+  margin-bottom: 30px;
+}
+.conditions-brief {
+  padding-top: 20px;
+}
+.title-page {
+    font-size: 21px;
+    margin-top: 16px;
+    line-height: 31px;
+}
+.item-conditions {
+    font-size: 14px;
+}
+.item-conditions__icon {
+  margin-bottom: 15px;
+}
+.row_conditions {
+  margin-bottom: 15px;
+}
+.block-condition {
+  padding: 20px 15px;
+  font-size: 14px;
+}
+.col-lg-8 .block-condition__title {
+  margin-bottom: 20px;
+}
+.block-condition__bottom {
+    font-size: 13px;
+    line-height: 22px;
+    }
+    .block-condition__title {
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+    .col-lg-8 .block-condition__title {
+      margin-top: 0;
+    }
+    .conditions-page {
+      padding-bottom: 40px;
+    }
 }
 
 /* Custom, iPhone Retina */
